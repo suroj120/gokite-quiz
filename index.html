@@ -551,6 +551,11 @@
             document.getElementById('results-screen').classList.remove('active');
             document.getElementById('start-screen').classList.add('active');
         }
-    </script>
+    <!-- Vercel Speed Insights -->
+  <script type="module">
+    import { injectSpeedInsights } from "https://esm.sh/@vercel/speed-insights";
+    injectSpeedInsights();
+  </script>
+
 </body>
 </html>
